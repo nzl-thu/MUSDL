@@ -1,6 +1,6 @@
 MUSDL
 ===
-This repository contains the PyTorch implementation for paper __Uncertainty-Aware Score Distribution Learning for Action Quality Assessment__ (CVPR 2020)
+This repository contains the PyTorch implementation for paper __Uncertainty-aware Score Distribution Learning for Action Quality Assessment__ (CVPR 2020)
 
 <img src="https://github.com/nzl-thu/MUSDL/blob/master/fig/multi-path.png" width="60%" alt=""/>
 
