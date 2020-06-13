@@ -1,0 +1,723 @@
+------------------------------exp1------------------------------
+Epoch: 0
+train correlation: 0.4665700744131062
+test correlation: nan
+Epoch: 1
+train correlation: 0.2447170249543944
+test correlation: nan
+Epoch: 2
+train correlation: 0.563227801361316
+test correlation: nan
+Epoch: 3
+train correlation: 0.4531314615980476
+test correlation: 0.17622684421256032
+Epoch: 4
+train correlation: 0.15786218649251788
+test correlation: nan
+Epoch: 5
+train correlation: 0.13450668811909366
+test correlation: 0.17622684421256032
+Epoch: 6
+train correlation: 0.1655067767926898
+test correlation: 0.3524536884251207
+Epoch: 7
+train correlation: 0.2734281808171635
+test correlation: 0.6474987709525735
+Epoch: 8
+train correlation: 0.03839891022790975
+test correlation: 0.528680532637681
+Epoch: 9
+train correlation: 0.13895545437983675
+test correlation: 0.528680532637681
+Epoch: 10
+train correlation: 0.5139420963562473
+test correlation: 0.528680532637681
+Epoch: 11
+train correlation: 0.31989024204034416
+test correlation: 0.528680532637681
+Epoch: 12
+train correlation: 0.38880844480594734
+test correlation: 0.528680532637681
+Epoch: 13
+train correlation: 0.5237392788821637
+test correlation: 0.42301435161712997
+Epoch: 14
+train correlation: 0.5817228689767229
+test correlation: 0.6474987709525735
+Epoch: 15
+train correlation: 0.8404537599640389
+test correlation: 0.6474987709525735
+Epoch: 16
+train correlation: 0.6076743827696237
+test correlation: 0.6474987709525735
+Epoch: 17
+train correlation: 0.7587224678489916
+test correlation: 0.6474987709525735
+Epoch: 18
+train correlation: 0.5583347704272846
+test correlation: 0.8190283593479223
+Epoch: 19
+train correlation: 0.5339732240115118
+test correlation: 0.6474987709525735
+Epoch: 20
+train correlation: 0.6322659084582621
+test correlation: 0.5534009287954967
+Epoch: 21
+train correlation: 0.9407403807210097
+test correlation: 0.48837415653388777
+Epoch: 22
+train correlation: 0.5214312939674852
+test correlation: 0.4843226507925052
+Epoch: 23
+train correlation: 0.8334853400528073
+test correlation: 0.4581430480469644
+Epoch: 24
+train correlation: 0.5897206494454571
+test correlation: 0.5140598035722945
+Epoch: 25
+train correlation: 0.8924652323993798
+test correlation: 0.509719599932903
+Epoch: 26
+train correlation: 0.6645281363240303
+test correlation: 0.5454786677438429
+Epoch: 27
+train correlation: 0.9425028545541372
+test correlation: 0.5415770749287093
+Epoch: 28
+train correlation: 0.8512348775593731
+test correlation: 0.4579589979124735
+Epoch: 29
+train correlation: 0.9564692015422276
+test correlation: 0.5140598035722945
+Epoch: 30
+train correlation: 0.9583622478878333
+test correlation: 0.41381140311601877
+Epoch: 31
+train correlation: 0.8101346895041713
+test correlation: 0.4921747909480132
+Epoch: 32
+train correlation: 0.827789195947443
+test correlation: 0.32817962056477135
+Epoch: 33
+train correlation: 0.7804166253430732
+test correlation: 0.41381140311601877
+Epoch: 34
+train correlation: 0.9811153576356547
+test correlation: 0.5984451904416418
+Epoch: 35
+train correlation: 0.9179071859709309
+test correlation: 0.5984451904416418
+Epoch: 36
+train correlation: 0.8112838525381346
+test correlation: 0.444554224474387
+Epoch: 37
+train correlation: 0.9748518328110671
+test correlation: 0.6105948631920528
+Epoch: 38
+train correlation: 0.954493793877992
+test correlation: 0.5768280164647535
+Epoch: 39
+train correlation: 0.9726805552866435
+test correlation: 0.6730092192431072
+Epoch: 40
+train correlation: 0.9798858447746036
+test correlation: 0.6730092192431072
+Epoch: 41
+train correlation: 0.810188602450941
+test correlation: 0.6375124515366674
+Epoch: 42
+train correlation: 0.817460654822223
+test correlation: 0.6130060338328881
+Epoch: 43
+train correlation: 0.7895062501625695
+test correlation: 0.6375124515366674
+Epoch: 44
+train correlation: 0.9733102095324065
+test correlation: 0.43820344983903864
+Epoch: 45
+train correlation: 0.968985001388493
+test correlation: 0.412328743242268
+Epoch: 46
+train correlation: 0.810513398910377
+test correlation: 0.5758541529945312
+Epoch: 47
+train correlation: 0.9718968191070104
+test correlation: 0.598776840088099
+Epoch: 48
+train correlation: 0.8248417126671441
+test correlation: 0.598776840088099
+Epoch: 49
+train correlation: 0.9836481300011256
+test correlation: 0.6730092192431072
+Epoch: 50
+train correlation: 0.7918596202742259
+test correlation: 0.6375124515366674
+Epoch: 51
+train correlation: 0.989286876301739
+test correlation: 0.4125080568766671
+Epoch: 52
+train correlation: 0.7821819752668766
+test correlation: 0.6604393418199755
+Epoch: 53
+train correlation: 0.786932909179826
+test correlation: 0.6730092192431072
+Epoch: 54
+train correlation: 0.9715793358740475
+test correlation: 0.6730092192431072
+Epoch: 55
+train correlation: 0.9843381058019901
+test correlation: 0.6375124515366674
+Epoch: 56
+train correlation: 0.7969617066558815
+test correlation: 0.6604393418199755
+Epoch: 57
+train correlation: 0.7950709288873239
+test correlation: 0.6604393418199755
+Epoch: 58
+train correlation: 0.7960890638463628
+test correlation: 0.6730092192431072
+Epoch: 59
+train correlation: 0.8016644053771157
+test correlation: 0.6730092192431072
+Epoch: 60
+train correlation: 0.9799220322836523
+test correlation: 0.6730092192431072
+Epoch: 61
+train correlation: 0.8217529433740582
+test correlation: 0.6730092192431072
+Epoch: 62
+train correlation: 0.9867644574761328
+test correlation: 0.6730092192431072
+Epoch: 63
+train correlation: 0.8224394871027023
+test correlation: 0.6730092192431072
+Epoch: 64
+train correlation: 0.7990306393079946
+test correlation: 0.6730092192431072
+Epoch: 65
+train correlation: 0.8030305259749698
+test correlation: 0.6730092192431072
+Epoch: 66
+train correlation: 0.989283908829429
+test correlation: 0.6730092192431072
+Epoch: 67
+train correlation: 0.9936537002833672
+test correlation: 0.6730092192431072
+Epoch: 68
+train correlation: 0.7944542141637854
+test correlation: 0.6375124515366674
+Epoch: 69
+train correlation: 0.9874351743056853
+test correlation: 0.6375124515366674
+Epoch: 70
+train correlation: 0.8009952479195513
+test correlation: 0.6375124515366674
+Epoch: 71
+train correlation: 0.8017472933776784
+test correlation: 0.6730092192431072
+Epoch: 72
+train correlation: 0.9992540095940489
+test correlation: 0.6730092192431072
+Epoch: 73
+train correlation: 0.9970138082094685
+test correlation: 0.6730092192431072
+Epoch: 74
+train correlation: 0.9901668636474128
+test correlation: 0.5144127454632194
+Epoch: 75
+train correlation: 0.9946483832716657
+test correlation: 0.48265887228647736
+Epoch: 76
+train correlation: 0.9945321314521205
+test correlation: 0.6125119632411117
+Epoch: 77
+train correlation: 0.9991298170582013
+test correlation: 0.6730092192431072
+Epoch: 78
+train correlation: 0.7969663615438144
+test correlation: 0.6730092192431072
+Epoch: 79
+train correlation: 0.9905313044526514
+test correlation: 0.6730092192431072
+------------------------------exp2------------------------------
+Epoch: 0
+train correlation: 0.07569843343836187
+test correlation: nan
+Epoch: 1
+train correlation: 0.2508044814018462
+test correlation: -0.17622684421256032
+Epoch: 2
+train correlation: 0.05823117093254316
+test correlation: nan
+Epoch: 3
+train correlation: nan
+test correlation: nan
+Epoch: 4
+train correlation: nan
+test correlation: nan
+Epoch: 5
+train correlation: nan
+test correlation: nan
+Epoch: 6
+train correlation: 0.2777736349015775
+test correlation: nan
+Epoch: 7
+train correlation: 0.6027793981199515
+test correlation: nan
+Epoch: 8
+train correlation: 0.5763711439631339
+test correlation: nan
+Epoch: 9
+train correlation: 0.778356006105867
+test correlation: nan
+Epoch: 10
+train correlation: 0.7955312228279211
+test correlation: 0.08811342210628018
+Epoch: 11
+train correlation: 0.8231784424689047
+test correlation: 0.42301435161712997
+Epoch: 12
+train correlation: 0.42257082489925285
+test correlation: 0.528680532637681
+Epoch: 13
+train correlation: 0.2774200442456307
+test correlation: 0.42301435161712997
+Epoch: 14
+train correlation: 0.7603186285854563
+test correlation: 0.17622684421256032
+Epoch: 15
+train correlation: 0.8231784424689047
+test correlation: 0.17622684421256032
+Epoch: 16
+train correlation: 0.5447693022141484
+test correlation: 0.42301435161712997
+Epoch: 17
+train correlation: 0.855290393169183
+test correlation: 0.42301435161712997
+Epoch: 18
+train correlation: 0.8647161532716217
+test correlation: 0.6474987709525735
+Epoch: 19
+train correlation: 0.933812182087247
+test correlation: 0.6474987709525735
+Epoch: 20
+train correlation: 0.90939768093166
+test correlation: 0.6474987709525735
+Epoch: 21
+train correlation: 0.7195537575285412
+test correlation: 0.6474987709525735
+Epoch: 22
+train correlation: 0.8763119502315384
+test correlation: 0.7325612348008317
+Epoch: 23
+train correlation: 0.7712460492278325
+test correlation: 0.7325612348008317
+Epoch: 24
+train correlation: 0.7877561567030583
+test correlation: 0.6283104658929798
+Epoch: 25
+train correlation: 0.9305609451274214
+test correlation: 0.6283104658929798
+Epoch: 26
+train correlation: 0.9378916986229205
+test correlation: 0.48837415653388777
+Epoch: 27
+train correlation: 0.9443737651885908
+test correlation: 0.48837415653388777
+Epoch: 28
+train correlation: 0.9420879922030367
+test correlation: 0.7014035027756877
+Epoch: 29
+train correlation: 0.7948703928815545
+test correlation: 0.7014035027756877
+Epoch: 30
+train correlation: 0.9152530699928643
+test correlation: 0.6283104658929798
+Epoch: 31
+train correlation: 0.9661742207730506
+test correlation: 0.6283104658929798
+Epoch: 32
+train correlation: 0.9586814869352414
+test correlation: 0.5160910949320642
+Epoch: 33
+train correlation: 0.9018782701707541
+test correlation: 0.5160910949320642
+Epoch: 34
+train correlation: 0.8112957091686775
+test correlation: 0.5669809443926206
+Epoch: 35
+train correlation: 0.9513442266943131
+test correlation: 0.508061970827871
+Epoch: 36
+train correlation: 0.9571121045637865
+test correlation: 0.6963280627604908
+Epoch: 37
+train correlation: 0.9423281331243591
+test correlation: 0.5207635200985676
+Epoch: 38
+train correlation: 0.955376356607737
+test correlation: 0.5160910949320642
+Epoch: 39
+train correlation: 0.9536715239431529
+test correlation: 0.6926635650616164
+Epoch: 40
+train correlation: 0.9636525454399084
+test correlation: 0.5750112307977784
+Epoch: 41
+train correlation: 0.9646708284051
+test correlation: 0.5794420640496012
+Epoch: 42
+train correlation: 0.9690807641597727
+test correlation: 0.760128299075821
+Epoch: 43
+train correlation: 0.97070460169643
+test correlation: 0.739093419902709
+Epoch: 44
+train correlation: 0.8443823812508412
+test correlation: 0.760128299075821
+Epoch: 45
+train correlation: 0.8436439021573885
+test correlation: 0.7476671794188402
+Epoch: 46
+train correlation: 0.9743598763117833
+test correlation: 0.5750112307977784
+Epoch: 47
+train correlation: 0.9705535321283099
+test correlation: 0.760128299075821
+Epoch: 48
+train correlation: 0.8349095949055629
+test correlation: 0.760128299075821
+Epoch: 49
+train correlation: 0.9750161183684363
+test correlation: 0.5805138559899643
+Epoch: 50
+train correlation: 0.9739842556963972
+test correlation: 0.5849519382206446
+Epoch: 51
+train correlation: 0.9755688827427721
+test correlation: 0.7476671794188402
+Epoch: 52
+train correlation: 0.9687883263962491
+test correlation: 0.760128299075821
+Epoch: 53
+train correlation: 0.9759100884606527
+test correlation: 0.760128299075821
+Epoch: 54
+train correlation: 0.972823920133145
+test correlation: 0.760128299075821
+Epoch: 55
+train correlation: 0.978545360337739
+test correlation: 0.7222359823743049
+Epoch: 56
+train correlation: 0.8487306826552765
+test correlation: 0.7261847848629157
+Epoch: 57
+train correlation: 0.9749853567159192
+test correlation: 0.7261847848629157
+Epoch: 58
+train correlation: 0.9736515038528464
+test correlation: 0.5482892649071495
+Epoch: 59
+train correlation: 0.8793789905487035
+test correlation: 0.6563498948109711
+Epoch: 60
+train correlation: 0.9778996629467775
+test correlation: 0.5758541529945312
+Epoch: 61
+train correlation: 0.9789283936084604
+test correlation: 0.7469278108315461
+Epoch: 62
+train correlation: 0.9787801878980312
+test correlation: 0.7469278108315461
+Epoch: 63
+train correlation: 0.855561508592692
+test correlation: 0.7306536564876849
+Epoch: 64
+train correlation: 0.9691582522806428
+test correlation: 0.7345818966029256
+Epoch: 65
+train correlation: 0.9833396183229373
+test correlation: 0.6149068322981367
+Epoch: 66
+train correlation: 0.9753911245678086
+test correlation: 0.760128299075821
+Epoch: 67
+train correlation: 0.9996271979758661
+test correlation: 0.5750112307977784
+Epoch: 68
+train correlation: 0.9796459421823542
+test correlation: 0.563470192715079
+Epoch: 69
+train correlation: 0.9970126893671588
+test correlation: 0.5794420640496012
+Epoch: 70
+train correlation: 0.9738440024396221
+test correlation: 0.5750112307977784
+Epoch: 71
+train correlation: 0.993147823633089
+test correlation: 0.7484868886909324
+Epoch: 72
+train correlation: 0.9944140285349016
+test correlation: 0.7777925964030977
+Epoch: 73
+train correlation: 0.9997515219243539
+test correlation: 0.760128299075821
+Epoch: 74
+train correlation: 0.9945276401187473
+test correlation: 0.7639751552795032
+Epoch: 75
+train correlation: 0.9768858034918304
+test correlation: 0.563470192715079
+Epoch: 76
+train correlation: 0.9976358145137869
+test correlation: 0.563470192715079
+Epoch: 77
+train correlation: 0.9957737802222177
+test correlation: 0.5750112307977784
+Epoch: 78
+train correlation: 0.9966431129696125
+test correlation: 0.5805138559899643
+Epoch: 79
+train correlation: 0.9783507440712303
+test correlation: 0.5849519382206446
+------------------------------exp3------------------------------
+Epoch: 0
+train correlation: -0.1226537083524838
+test correlation: nan
+Epoch: 1
+train correlation: nan
+test correlation: nan
+Epoch: 2
+train correlation: nan
+test correlation: nan
+Epoch: 3
+train correlation: nan
+test correlation: nan
+Epoch: 4
+train correlation: 0.0
+test correlation: nan
+Epoch: 5
+train correlation: 0.0
+test correlation: nan
+Epoch: 6
+train correlation: -0.04932429326447839
+test correlation: nan
+Epoch: 7
+train correlation: -0.12976893193406325
+test correlation: 0.0
+Epoch: 8
+train correlation: -0.2774370268935145
+test correlation: 0.528680532637681
+Epoch: 9
+train correlation: -0.2641567187497817
+test correlation: nan
+Epoch: 10
+train correlation: 0.012007123579535529
+test correlation: 0.7306611527932246
+Epoch: 11
+train correlation: -0.28999958571517354
+test correlation: 0.26919095102908275
+Epoch: 12
+train correlation: -0.13226291300724471
+test correlation: 0.6474987709525735
+Epoch: 13
+train correlation: -0.17483428739880955
+test correlation: 0.0
+Epoch: 14
+train correlation: -0.04995265354251701
+test correlation: 0.26919095102908275
+Epoch: 15
+train correlation: 0.008710882989088937
+test correlation: 0.31720831958260864
+Epoch: 16
+train correlation: 0.08859160498462659
+test correlation: 0.0
+Epoch: 17
+train correlation: 0.03919897345090022
+test correlation: 0.5195383931624605
+Epoch: 18
+train correlation: 0.08738477977575324
+test correlation: 0.7092993656151906
+Epoch: 19
+train correlation: 0.27715934673247755
+test correlation: 0.6630229575673655
+Epoch: 20
+train correlation: 0.1731784503830563
+test correlation: 0.6630229575673655
+Epoch: 21
+train correlation: 0.34689770951470955
+test correlation: 0.5910828046793254
+Epoch: 22
+train correlation: 0.5759572036887644
+test correlation: 0.6959555416042135
+Epoch: 23
+train correlation: 0.44410344051609907
+test correlation: 0.670345779553041
+Epoch: 24
+train correlation: 0.42157350151791007
+test correlation: 0.7657524479844665
+Epoch: 25
+train correlation: 0.3607123629435815
+test correlation: 0.6630229575673655
+Epoch: 26
+train correlation: 0.8417243837313685
+test correlation: 0.6104676956673597
+Epoch: 27
+train correlation: 0.42247001983593646
+test correlation: 0.6872145720704466
+Epoch: 28
+train correlation: 0.8202710611236529
+test correlation: 0.5237244570344243
+Epoch: 29
+train correlation: 0.32421874824906116
+test correlation: 0.670345779553041
+Epoch: 30
+train correlation: 0.7551934159981466
+test correlation: 0.6687630619061118
+Epoch: 31
+train correlation: 0.6385163430118506
+test correlation: 0.5975315497952822
+Epoch: 32
+train correlation: 0.551570889831538
+test correlation: 0.7439719772884029
+Epoch: 33
+train correlation: 0.7694519271764791
+test correlation: 0.6875134281277785
+Epoch: 34
+train correlation: 0.7829337068166822
+test correlation: 0.7227449401048789
+Epoch: 35
+train correlation: 0.7140297591934874
+test correlation: 0.7004025871183266
+Epoch: 36
+train correlation: 0.8159595669654133
+test correlation: 0.7040532606194079
+Epoch: 37
+train correlation: 0.7818563154781873
+test correlation: 0.760128299075821
+Epoch: 38
+train correlation: 0.788748402235979
+test correlation: 0.7227449401048789
+Epoch: 39
+train correlation: 0.9306306636917281
+test correlation: 0.7227449401048789
+Epoch: 40
+train correlation: 0.8262832280223582
+test correlation: 0.7227449401048789
+Epoch: 41
+train correlation: 0.8132179462018205
+test correlation: 0.7227449401048789
+Epoch: 42
+train correlation: 0.8383423765232909
+test correlation: 0.7227449401048789
+Epoch: 43
+train correlation: 0.8094263618434528
+test correlation: 0.7227449401048789
+Epoch: 44
+train correlation: 0.9779267251022232
+test correlation: 0.7414366195903499
+Epoch: 45
+train correlation: 0.8508896445202786
+test correlation: 0.6730092192431072
+Epoch: 46
+train correlation: 0.8263726284330151
+test correlation: 0.6688529210319154
+Epoch: 47
+train correlation: 0.8263743725007269
+test correlation: 0.6981684423923823
+Epoch: 48
+train correlation: 0.9676932161032198
+test correlation: 0.7227449401048789
+Epoch: 49
+train correlation: 0.7878460330260088
+test correlation: 0.8076714518121243
+Epoch: 50
+train correlation: 0.8022068340718149
+test correlation: 0.7437645267927786
+Epoch: 51
+train correlation: 0.9685731324480219
+test correlation: 0.7862257234148449
+Epoch: 52
+train correlation: 0.8088806276338792
+test correlation: 0.7414366195903499
+Epoch: 53
+train correlation: 0.9791671704387798
+test correlation: 0.5444019399763838
+Epoch: 54
+train correlation: 0.9659423150184187
+test correlation: 0.6730092192431072
+Epoch: 55
+train correlation: 0.9694984846923882
+test correlation: 0.7862257234148449
+Epoch: 56
+train correlation: 0.9815227585643775
+test correlation: 0.6978227007909176
+Epoch: 57
+train correlation: 0.8316332969668001
+test correlation: 0.6645962732919255
+Epoch: 58
+train correlation: 0.9712182786113808
+test correlation: 0.6542087819914851
+Epoch: 59
+train correlation: 0.8310316324180262
+test correlation: 0.6875134281277785
+Epoch: 60
+train correlation: 0.9723460651295802
+test correlation: 0.7227449401048789
+Epoch: 61
+train correlation: 0.7883974757543115
+test correlation: 0.7227449401048789
+Epoch: 62
+train correlation: 0.8146507771751252
+test correlation: 0.7862257234148449
+Epoch: 63
+train correlation: 0.8487313689672543
+test correlation: 0.7862257234148449
+Epoch: 64
+train correlation: 0.8228875892785208
+test correlation: 0.7862257234148449
+Epoch: 65
+train correlation: 0.8250062142679593
+test correlation: 0.6645962732919255
+Epoch: 66
+train correlation: 0.8437073514344966
+test correlation: 0.6645962732919255
+Epoch: 67
+train correlation: 0.9703562009471294
+test correlation: 0.7414366195903499
+Epoch: 68
+train correlation: 0.854993325347032
+test correlation: 0.7862257234148449
+Epoch: 69
+train correlation: 0.9982585195805165
+test correlation: 0.7437645267927786
+Epoch: 70
+train correlation: 0.9792096548228628
+test correlation: 0.7437645267927786
+Epoch: 71
+train correlation: 0.846623035228889
+test correlation: 0.7040532606194079
+Epoch: 72
+train correlation: 0.8666859702208655
+test correlation: 0.6645962732919255
+Epoch: 73
+train correlation: 0.9679783921289719
+test correlation: 0.6750131839800008
+Epoch: 74
+train correlation: 0.9799543926568156
+test correlation: 0.7233276655416574
+Epoch: 75
+train correlation: 0.9775834591908505
+test correlation: 0.7142857142857143
+Epoch: 76
+train correlation: 0.9991296546673532
+test correlation: 0.7352060597618596
+Epoch: 77
+train correlation: 0.9921571284230631
+test correlation: 0.7437645267927786
+Epoch: 78
+train correlation: 0.9988808751617884
+test correlation: 0.7233276655416574
+Epoch: 79
+train correlation: 0.9737533235045169
+test correlation: 0.8076714518121243
