@@ -58,7 +58,7 @@ When you have prepared the data, the structure should be:
 These data could be also downloaded from [BaiduYun](https://github.com/nzl-thu/MUSDL/blob/master/Baidu-link.txt)
 
 #### AQA-7 dataset
-There's an ongoing project regarding on this dataset and the code will be public later, please email us if you're interested.
+There's an ongoing project regarding this dataset and the code will be public later, please email us if you're interested.
 
 ### Training & Evaluation
 To train and evaluate the USDL&MUSDL model on MTL-AQA:
