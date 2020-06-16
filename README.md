@@ -27,7 +27,7 @@ If you find our work useful in your research, please consider citing:
 
 MTL-AQA dataset was orignially presented in the paper __What and How Well You Performed? A Multitask Learning Approach to Action Quality Assessment__ (CVPR 2019) \[[arXiv](https://arxiv.org/abs/1904.04346)\], where the authors provided the YouTube links of untrimmed long videos and the corresponding annotations at [here](https://github.com/ParitoshParmar/MTL-AQA/tree/master/MTL-AQA_dataset_release).
 
-You can download our prepared MTL-AQA dataset (About 1 G) from [Google Drive](https://drive.google.com/open?id=1T7bVrqdElRLoR3l6TxddFQNPAUIgAJL7) (The processed code will be uploaded soon). Then, please move the uncompressed data folder to `MTL-AQA/data/frames`. We used the I3D backbone pretrained on Kinetics([Google Drive](https://drive.google.com/open?id=1M_4hN-beZpa-eiYCvIE7hsORjF18LEYU)), which is referenced from [Gated-Spatio-Temporal-Energy-Graph](https://github.com/yaohungt/Gated-Spatio-Temporal-Energy-Graph). The whole data structure should be:
+You can download our prepared MTL-AQA dataset (About 1 G) from [Google Drive](https://drive.google.com/open?id=1T7bVrqdElRLoR3l6TxddFQNPAUIgAJL7). Then, please move the uncompressed data folder to `MTL-AQA/data/frames`. We used the I3D backbone pretrained on Kinetics([Google Drive](https://drive.google.com/open?id=1M_4hN-beZpa-eiYCvIE7hsORjF18LEYU)), which is referenced from [Gated-Spatio-Temporal-Energy-Graph](https://github.com/yaohungt/Gated-Spatio-Temporal-Energy-Graph). The whole data structure should be:
 ```
 ./MTL-AQA
 ├── data
