@@ -22,13 +22,11 @@ def proc_label(label, args):
         # Scores of JIGSAWS dataset ranges from 6 to 30
         soft_label = [stats.norm.pdf(np.arange(6, 31), loc=i, scale=args.std).astype(np.float32)
                       for i in label.sum(dim=1)]  # N, 25
-    elif args.type == 'MUSDL':
+    else:
         # Sub-scores of JIGSAWS dataset ranges from 1 to 5, which can be seen as judge scores. See the paper of
         # JIGSAWS dataset for more details
         soft_label = [np.stack([stats.norm.pdf(np.arange(1, 6), loc=j, scale=args.std).astype(np.float32)
                                 for j in i]) for i in label]  # N, 6x5
-    else:
-        raise NotImplementedError
 
     soft_label = np.stack(soft_label)
     soft_label = soft_label / soft_label.sum(axis=-1, keepdims=True)
@@ -50,11 +48,9 @@ def get_models(args):
     if args.type == 'USDL':
         evaluators = nn.ModuleList([Evaluator(output_dim=output_dim['USDL'], model_type='USDL')
                                     for _ in range(4)]).cuda()
-    elif args.type == 'MUSDL':
+    else:
         evaluators = nn.ModuleList([Evaluator(output_dim=output_dim['MUSDL'], model_type='MUSDL', num_judges=num_judges)
                                     for _ in range(4)]).cuda()
-    else:
-        raise NotImplementedError
 
     if len(args.gpu.split(',')) > 1:
         i3ds = nn.ModuleList([nn.DataParallel(i3d) for i3d in i3ds])
@@ -86,24 +82,18 @@ def get_dataloaders(args):
 def compute_score(model_type, probs):
     if model_type == 'USDL':
         pred = probs.argmax(dim=-1) + label_min
-    elif model_type == 'MUSDL':
-        judge_scores_pred = torch.stack([prob.argmax(dim=-1) + judge_min
-                                         for prob in probs], dim=1)  # N, 6
-
-        pred = torch.sum(judge_scores_pred, dim=-1)
     else:
-        raise NotImplementedError
+        judge_scores_pred = torch.stack([prob.argmax(dim=-1) + judge_min for prob in probs], dim=1)  # N, 6
+        pred = torch.sum(judge_scores_pred, dim=-1)
     return pred
 
 
 def compute_loss(model_type, criterion, probs, soft_label):
     if model_type == 'USDL':
         loss = criterion(torch.log(probs), soft_label.cuda())
-    elif model_type == 'MUSDL':
+    else:
         loss = sum([criterion(torch.log(probs[i]), soft_label[:, i].cuda())
                     for i in range(num_judges)])
-    else:
-        raise NotImplementedError
     return loss
 
 

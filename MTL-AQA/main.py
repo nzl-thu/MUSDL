@@ -27,10 +27,8 @@ def get_models(args):
 
     if args.type == 'USDL':
         evaluator = Evaluator(output_dim=output_dim['USDL'], model_type='USDL').cuda()
-    elif args.type == 'MUSDL':
-        evaluator = Evaluator(output_dim=output_dim['MUSDL'], model_type='MUSDL', num_judges=num_judges).cuda()
     else:
-        raise NotImplementedError
+        evaluator = Evaluator(output_dim=output_dim['MUSDL'], model_type='MUSDL', num_judges=num_judges).cuda()
 
     if len(args.gpu.split(',')) > 1:
         i3d = nn.DataParallel(i3d)
@@ -41,26 +39,21 @@ def get_models(args):
 def compute_score(model_type, probs, data):
     if model_type == 'USDL':
         pred = probs.argmax(dim=-1) * (label_max / (output_dim['USDL']-1))
-    elif model_type == 'MUSDL':
+    else:
         # calculate expectation & denormalize & sort
         judge_scores_pred = torch.stack([prob.argmax(dim=-1) * judge_max / (output_dim['MUSDL']-1)
                                          for prob in probs], dim=1).sort()[0]  # N, 7
 
         # keep the median 3 scores to get final score according to the rule of diving
         pred = torch.sum(judge_scores_pred[:, 2:5], dim=1) * data['difficulty'].cuda()
-    else:
-        raise NotImplementedError
     return pred
 
 
 def compute_loss(model_type, criterion, probs, data):
     if model_type == 'USDL':
         loss = criterion(torch.log(probs), data['soft_label'].cuda())
-    elif model_type == 'MUSDL':
-        loss = sum([criterion(torch.log(probs[i]), data['soft_judge_scores'][:, i].cuda())
-                    for i in range(num_judges)])
     else:
-        raise NotImplementedError
+        loss = sum([criterion(torch.log(probs[i]), data['soft_judge_scores'][:, i].cuda()) for i in range(num_judges)])
     return loss
 
 

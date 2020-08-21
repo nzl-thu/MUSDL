@@ -28,21 +28,15 @@ class Evaluator(nn.Module):
 
         if model_type == 'USDL':
             self.evaluator = MLP_block(output_dim=output_dim)
-        elif model_type == 'MUSDL':
-            if not num_judges:
-                raise NotImplementedError
-            else:
-                self.evaluator = nn.ModuleList([MLP_block(output_dim=output_dim) for _ in range(num_judges)])
         else:
-            raise NotImplementedError
+            assert num_judges is not None, 'num_judges is required in MUSDL'
+            self.evaluator = nn.ModuleList([MLP_block(output_dim=output_dim) for _ in range(num_judges)])
 
     def forward(self, feats_avg):  # data: NCTHW
 
         if self.model_type == 'USDL':
             probs = self.evaluator(feats_avg)  # Nxoutput_dim
-        elif self.model_type == 'MUSDL':
-            probs = [evaluator(feats_avg) for evaluator in self.evaluator]  # len=num_judges
         else:
-            raise NotImplementedError
+            probs = [evaluator(feats_avg) for evaluator in self.evaluator]  # len=num_judges
         return probs
 
